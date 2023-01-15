@@ -1,0 +1,10 @@
+[package]
+name = 'utils'
+version = '1.0.0'
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
+
+[addresses]
+openmove = "4b46c4633795c1d4fb1a9bb36dfe7b1f9d7cfef4fde0e582c4aa1f9f71673214"
